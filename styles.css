@@ -142,6 +142,9 @@ body{
     padding:5em 7em;
 }
 
+.wrap-background{
+    background-color:#d9d9d9; 
+}
 
 .smashing-members {
     display: grid;
@@ -150,15 +153,21 @@ body{
 }
 
 .smashing-members-text {
-    background-color: #d9d9d9;
-    padding:2em 7em;
+    background-color: #bfbfbf;
+    padding:.5em 4em;
+    margin-left:0;
+    margin-right:2em;
+    margin-top:2em;
+    margin-bottom:2em;
+    font-weight:400;
 }
 
 .smashing-members-counter {
     background-color: #bfbfbf;
-    padding:2em 7em;
+    padding:1em 5em;
     font-size:2em;
     font-weight: 600;
+    margin:2em;
 }
 
 .using-slots {
