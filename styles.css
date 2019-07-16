@@ -1,0 +1,43 @@
+
+*,::before,::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-grid-wrapper{
+    display: grid;
+    grid-gap:.5em .5em;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:.5em;
+   
+    
+  
+}
+
+.smashing-logo{
+    background-color:#ccc; 
+}
+
+.menu-item-1{
+    background-color: #ccc;
+    padding:1em;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: .5em .5em;
+}
+
+.articles-1{
+    background-color: grey;
+    padding:5em 5em;
+}
+.articles-2{
+    background-color: #ccc;
+    padding:5em 5em;
+}
