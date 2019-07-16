@@ -62,17 +62,38 @@ body{
 
 .articles-1 {
     background-color: #d9d9d9;
-    padding: 5em;
+    padding: 8em;
     font-size:2em;
 }
 
 .articles-2 {
     background-color: #ccc;
-    padding: 5em;
+    padding: 8em;
     font-size:2em;
 
 }
 
+.articles-3 {
+    background-color: #bfbfbf;
+    padding: 8em;
+    font-size:2em;
+
+}
+.articles-4 {
+    background-color: #8c8c8c;
+    padding: 8em;
+    font-size:2em;
+
+}
+
+.wrapper h1{
+    position: absolute;
+    background-color:#595959;
+    left:600px;
+    padding:2em;
+    top:220px;
+    color:#fff;
+}
 .ad {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -103,20 +124,22 @@ body{
 .latest-post-1,
 .latest-post-3 {
     background-color: #bfbfbf;
-    padding: 2em;
+    padding:12em 7em;
 }
 
-.latest-post-2,
+.latest-post-2 {
+    background-color: #a6a6a6;
+    padding:12em 7em;
+
+}
+
+
 .latest-post-4 {
     background-color: #a6a6a6;
-    padding: 2em;
-
-}
-
-.latest-post-4 {
     margin-left: 2em;
     border-radius: 1em;
     margin-right: 2em;
+    padding:5em 7em;
 }
 
 
@@ -128,12 +151,14 @@ body{
 
 .smashing-members-text {
     background-color: #d9d9d9;
-    padding: 2em;
+    padding:2em 7em;
 }
 
 .smashing-members-counter {
     background-color: #bfbfbf;
-    padding: 2em;
+    padding:2em 7em;
+    font-size:2em;
+    font-weight: 600;
 }
 
 .using-slots {
@@ -267,6 +292,7 @@ padding:2em;
 }
 
 .contact-us{
-    padding: 5em;
+    padding: 8em;
     background-color: #262626;
+    color:#fff;
 }
