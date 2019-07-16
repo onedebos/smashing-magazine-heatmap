@@ -197,31 +197,35 @@ body{
 .ethics {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 1em;
+    background-color: #a6a6a6;
 }
 
 .ethics-1 {
     background-color: #d9d9d9;
     padding: 1em;
     text-align: center;
+    margin:.5em;
 }
 
 .ethics-2 {
     background-color: #bfbfbf;
     padding: 2em;
     text-align: center;
+    margin:.5em;
 }
 
 .ethics-3 {
     background-color: #d9d9d9a6;
     padding: 1.5em;
     text-align: center;
+    margin:.5em;
 }
 
 .ethics-4 {
     text-align: center;
     background-color: #595959;
     padding: 2em;
+    margin:.5em;
 }
 
 .person-of-the-week {
