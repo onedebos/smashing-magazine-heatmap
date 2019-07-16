@@ -23,6 +23,9 @@ body{
 
 
 }
+.menu-item-1{
+    font-weight: 800;
+}
 
 .smashing-logo {
     background-color: #ccc;
@@ -197,4 +200,61 @@ padding:2em;
     background-color:#bfbfbf;
     padding:3em;
     text-align:center;
+}
+.featured-books{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.featured-books-img{
+    padding: 10px;
+    background-color: #bfbfbf;
+}
+.featured-books-txt{
+    padding: 10px;
+    background-color: #404040;
+}
+.guides{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.guide-1{
+    padding: 10px;
+    background-color: #bfbfbf;
+}
+.guide-2{
+    background-color: #595959;
+    padding: 10px;
+}
+.guide-3{
+    background-color: #d9d9d9;
+    padding: 10px;
+}
+
+.design-patterns{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.pattern-1{
+    padding:10px;
+    background-color: #737373;
+}
+.pattern-2{
+    padding:10px;
+    background-color:#bfbfbf ;
+}
+
+.contact-us{
+    padding: 5em;
+    background-color: #262626;
+}
+h3{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+p{
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
 }
