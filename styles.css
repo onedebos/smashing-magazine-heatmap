@@ -7,28 +7,27 @@
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Signika','Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-grid-wrapper {
     display: grid;
-    grid-gap: 0.5em 0.5em;
 }
 
 .navbar {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: .5em;
+
 
 
 
 }
 .menu-item-1{
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .smashing-logo {
-    background-color: #ccc;
+    background-color: #8c8c8c;
 }
 
 .menu-item-1 {
@@ -36,20 +35,42 @@ body{
     padding: 1em;
 }
 
+.menu-item-1 h2{
+    padding-bottom:1em;
+}
+.menu-item-1 h2 a{
+    font-size:1.5em;
+
+ 
+}
+
+.menu-item-2{
+    padding: 1em;
+    background:#ccc;
+
+}
+
+.menu-item-1 a{
+    text-decoration: underline;
+    color:black;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: .5em .5em;
 }
 
 .articles-1 {
     background-color: #d9d9d9;
-    padding: 5em 5em;
+    padding: 5em;
+    font-size:2em;
 }
 
 .articles-2 {
     background-color: #ccc;
-    padding: 5em 5em;
+    padding: 5em;
+    font-size:2em;
+
 }
 
 .ad {
@@ -248,13 +269,4 @@ padding:2em;
 .contact-us{
     padding: 5em;
     background-color: #262626;
-}
-h3{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 2.5em;
-    font-weight: 700;
-}
-p{
-    font-family: 'Pacifico', cursive;
-    font-weight: 100;
 }
