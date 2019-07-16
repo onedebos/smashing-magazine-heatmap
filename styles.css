@@ -1,47 +1,55 @@
-
-*,::before,::after{
-    margin:0;
+*,
+::before,
+::after {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.main-grid-wrapper{
-    display: grid;
-    grid-gap:0.5em 0.5em;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.navbar{
+
+.main-grid-wrapper {
+    display: grid;
+    grid-gap: 0.5em 0.5em;
+}
+
+.navbar {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap:.5em;
-   
-    
-  
+    grid-gap: .5em;
+
+
+
 }
 
-.smashing-logo{
-    background-color:#ccc; 
-}
-
-.menu-item-1{
+.smashing-logo {
     background-color: #ccc;
-    padding:1em;
 }
 
-.wrapper{
+.menu-item-1 {
+    background-color: #ccc;
+    padding: 1em;
+}
+
+.wrapper {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: .5em .5em;
 }
 
-.articles-1{
+.articles-1 {
     background-color: #d9d9d9;
-    padding:5em 5em;
+    padding: 5em 5em;
 }
-.articles-2{
+
+.articles-2 {
     background-color: #ccc;
-    padding:5em 5em;
+    padding: 5em 5em;
 }
-.ad{
+
+.ad {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 0.5em;
@@ -49,29 +57,144 @@
     margin-top: 0.5em;
 
 }
-.ad-text,.ad-img{
+
+.ad-text,
+.ad-img {
     padding: 10px;
 }
-.ad-text{
-    background-color:#d9d9d9;
+
+.ad-text {
+    background-color: #d9d9d9;
 }
-.ad-img{
+
+.ad-img {
     background-color: darkgrey;
 }
-.main-content{
+
+.main-content {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr; */
-    /* grid-column-gap: 0.5em; */
-    width: 100%
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.latest-post-1,.latest-post-3
-{
+
+.latest-post-1,
+.latest-post-3 {
+    background-color: #bfbfbf;
+    padding: 2em;
+}
+
+.latest-post-2,
+.latest-post-4 {
     background-color: #a6a6a6;
     padding: 2em;
+
 }
-.latest-post-2{
+
+.latest-post-4 {
+    margin-left: 2em;
+    border-radius: 1em;
+    margin-right: 2em;
+}
+
+
+.smashing-members {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-top: .5em;
+}
+
+.smashing-members-text {
+    background-color: #d9d9d9;
+    padding: 2em;
+}
+
+.smashing-members-counter {
+    background-color: #bfbfbf;
+    padding: 2em;
+}
+
+.using-slots {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.using-slots-text {
+    background-color: #d9d9d9;
+    padding: 2em;
+}
+
+.using-slots-img {
+    background-color: #737373;
+    padding: 2em;
+    align-self: stretch;
+}
+
+.all-articles {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: #bfbfbf;
+    padding: 5em;
+    text-align: center;
+}
+
+.ethics {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 1em;
+}
+
+.ethics-1 {
+    background-color: #d9d9d9;
+    padding: 1em;
+    text-align: center;
+}
+
+.ethics-2 {
+    background-color: #bfbfbf;
+    padding: 2em;
+    text-align: center;
+}
+
+.ethics-3 {
+    background-color: #d9d9d9a6;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.ethics-4 {
+    text-align: center;
     background-color: #595959;
     padding: 2em;
+}
+
+.person-of-the-week {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.cathy{
+background-color: #bfbfbf;
+padding:2em;
+}
+
+.cathy-background{
+    padding:2em;
+    background-color:#d9d9d9;
+}
+
+.person{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.person-1{
+    background-color: #d9d9d9;
+    border-radius:0.5em;
+    border:1px solid #8c8c8c;
+    padding:2em;
+}
+
+.twitter{
+    background-color:#bfbfbf;
+    padding:3em;
+    text-align:center;
 }
