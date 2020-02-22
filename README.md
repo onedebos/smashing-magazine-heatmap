@@ -5,7 +5,7 @@ Used:
 - HTML
 - CSS
 # Preview
-![screenshot](./Screenshot_2020-02-22 Smashing Magazine.png)
+![screenshot](./app_screenshot.png)
 # Authors
 - Adebola Adeniran  [https://github.com/onedebos/]
 - Fatima Ahmed [http://github.com/fatymahmed]
