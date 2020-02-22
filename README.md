@@ -4,7 +4,7 @@ This Project is all about creating a heat map of the Smashing Magazine website, 
 Used:
 - HTML
 - CSS
-
+![screenshot](./Screenshot_2020-02-22 Smashing Magazine.png)
 # Authors
 - Adebola Adeniran  [https://github.com/onedebos/]
 - Fatima Ahmed [http://github.com/fatymahmed]
